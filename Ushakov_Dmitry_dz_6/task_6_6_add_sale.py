@@ -1,4 +1,4 @@
-# add_sale.py
+# add_sale.py (файл для ввода данных)
 def write_sale(argv):
     with open('bakery.csv', 'a', encoding='utf-8') as f:
         program, *ars = argv
